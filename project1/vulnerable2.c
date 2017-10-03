@@ -7,7 +7,7 @@
 void strcpyn(char * destination, unsigned int destination_length, char * source, unsigned int source_length)
 {
 	unsigned int i;
-	
+
 	for (i = 0; i <= destination_length && i <= source_length; i++)
 		destination[i] = source[i];
 }
@@ -32,5 +32,6 @@ int main(int argc, char * argv[])
 	}
 
 	launch(argv[1]);
+
 	return(0);
 }
