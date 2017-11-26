@@ -2,6 +2,7 @@
 if( isset( $_GET[ 'Change' ] ) ) {
 	// Check Anti-CSRF token
 	//check the token here, we need to get the token first
+	//Need user token to be the same with session token
 	checkToken( $_REQUEST[ 'user_token' ], $_SESSION[ 'session_token' ], 'index.php' );
 	// Get input
 	$pass_new  = $_GET[ 'password_new' ];
