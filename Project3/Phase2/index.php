@@ -73,5 +73,4 @@ $page[ 'body' ] .= "
 </div>\n";
 
 dvwaHtmlEcho( $page );
-#eW91IGdvdCB0aGF0IHBhc3N3b3JkOiBzcGNHb29kR29vZDg1NDIz
 ?>
